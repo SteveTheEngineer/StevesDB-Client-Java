@@ -7,7 +7,7 @@ import java.util.Map;
 
 
 /**
- * This class is intended to help you build a {@link String} -> {@link EntryFilter} map
+ * This class is intended to help you build a {@link String} -&gt; {@link EntryFilter} map
  */
 public class EntryFilterBuilder {
     private Map<String, EntryFilter> map = new HashMap<>();

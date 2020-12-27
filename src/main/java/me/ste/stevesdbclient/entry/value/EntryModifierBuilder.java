@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * This class is intended to help you build a {@link String} -> {@link EntryValueModifier} map
+ * This class is intended to help you build a {@link String} -&gt; {@link EntryValueModifier} map
  */
 public class EntryModifierBuilder {
     private Map<String, EntryValueModifier> map = new HashMap<>();

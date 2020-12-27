@@ -18,19 +18,19 @@ public enum ComparatorOperation {
      */
     NOT_EQUAL_TO_IGNORE_CASE,
     /**
-     * a > b
+     * a &gt; b
      */
     GREATER_THAN,
     /**
-     * a < b
+     * a &lt; b
      */
     LESS_THAN,
     /**
-     * a >= b
+     * a &gt;= b
      */
     GREATER_THAN_OR_EQUAL_TO,
     /**
-     * a <= b
+     * a &lt;= b
      */
     LESS_THAN_OR_EQUAL_TO,
     /**
@@ -98,19 +98,19 @@ public enum ComparatorOperation {
      */
     LENGTH_NOT_EQUAL_TO,
     /**
-     * a.length() > b
+     * a.length() &gt; b
      */
     LENGTH_GREATER_THAN,
     /**
-     * a.length() < b
+     * a.length() &lt; b
      */
     LENGTH_LESS_THAN,
     /**
-     * a.length() >= b
+     * a.length() &gt;= b
      */
     LENGTH_GREATER_THAN_OR_EQUAL_NO,
     /**
-     * a.length() <= b
+     * a.length() &lt;= b
      */
     LENGTH_LESS_THAN_OR_EQUAL_TO
 }
