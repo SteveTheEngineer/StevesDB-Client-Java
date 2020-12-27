@@ -1,0 +1,23 @@
+plugins {
+    id "java"
+}
+
+group "me.ste"
+version "0"
+if(System.env.BUILD_NUMBER != null) {
+    version = "" + System.env.BUILD_NUMBER
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly "org.jetbrains:annotations:16.0.2"
+}
+
+jar {
+    manifest {
+        attributes "Implementation-Title": rootProject.name, "Implementation-Version": archiveVersion
+    }
+}
